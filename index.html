@@ -2,14 +2,15 @@
 <html lang="en">
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="assets/js/renderPDF.js" async></script>
     <title>Ryan Bower</title>
   </head>
   <body>
     <div id="wrapper">
       <h1 id="ryan">Ryan Bower</h1>
       <p class="about">
-        4th year Web and Mobile student at RIT.
+        Graduating Web and Mobile student at RIT.
       </p>
       <p class="about">
         Creator, Designer, and Enthusiast of all things tech.
@@ -34,6 +35,21 @@
         </p>
       </div>
       <div class="proj">
+        <a href="http://www.justwater.com/world/" target="_blank">
+          <h2>Just Water</h2>
+        </a>
+        <p>
+          While working with JUST Water at EagleDream Technologies I was tasked
+          with creating a scalable landing page for users across the world,
+          directing them to the correct version of the site depending on their
+          region. The design was simple, but there were no mobile views or
+          indications of how the page should display on different screen sizes.
+          I created the file structure, gathered the necessary media assets,
+          and implemented queries that scale the fonts and content to fit phones,
+          tablets, and desktops.
+        </p>
+      </div>
+      <div class="proj">
         <a href="https://people.rit.edu/rwb5760/hometown/" target="_blank">
           <h2>Hometown Site</h2>
         </a>
@@ -51,10 +67,10 @@
           <h2>Red Barn Climbing</h2>
         </a>
         <p>
-          Intending to make a proper website for the Red Barn climbing facility
+          Intended as a proper website for the Red Barn climbing facility
           at R.I.T., I designed and implemented a colorful page with large
           navigational icons to allow easy access to all of the information on
-          the site. This project exercised making content for an actual company,
+          the site. This project exercised making content for a real business,
           and is in the process of being used for the official Red Barn Climbing
           web site.
         </p>
@@ -76,53 +92,20 @@
       </div>
 
       <!-- Resume -->
-      <h1>Resume</h1>
-      <div id="Resume" class="resume">
-        <h2>Ryan Bower</h2><hr>
-        <p>
-          6000 Reynolds Drive #1869, Rochester, NY 14623 | 267-885-8748 | rwb5760@rit.edu
-        </p>
-        <h3>Objective</h3>
-        <p>
-          To apply my computer engineering background with my knowledge of programming principles through co-op employment.  Available for summer internship during 2016.
-        </p>
-        <h3>Skills and Abilities</h3>
-        <h4>Languages/Frameworks</h4>
-        <ul>
-          <li>Java: Most familiar with this language, have completed several personal projects and taken two classes using it.</li>
-          <li>Python: Used to learn programming basics and create simple functions.</li>
-          <li>VHDL and MIPS assembly: Have done extensive design using these languages in Computer Engineering.</li>
-          <li>HTML: Currently learning functionality and basics of HTML and CSS</li>
-        </ul>
-        <h4>Labs</h4>
-        <ul>
-          <li>Into to Software Engineering: Worked in a team of four developers to create a medical information network for a theoretical health care company. Involved front and back end work as well as design processes, use case diagrams, committing versions, and learning to work effectively with a team.</li>
-          <li>Computer Science I and II: Worked with Python and Java to create programs and learn to structure larger projects.</li>
-          <li>Web I: Created several websites and learned fundamentals of HTML and CSS styling.</li>
-          <li>Digital Systems and Design I and II: Analyzed various digital logic circuits schematically and tested hardware using an Altera bread board.</li>
-        </ul>
-        <h4>Personal Projects</h4>
-        <ul>
-          <li>Text-based dungeon crawler- I used a concept learned in class of nodes to create a virtual map that the user can explore. Written in Java.</li>
-          <li>Bot fighting arena- I proceeded to create a game that makes a map of node points to give bots decisions as to where they should move around the map. There is a rudimentary map making system, the bots can shoot each other, take damage, and respawn. I am still developing artificial intelligence for their actions.</li>
-        </ul>
-        <h3>Experience</h3>
-        <h4>FLOOR PERSONNEL | HARBOR FREIGHT TOOLS | MAY - AUGUST 2014</h4>
-        <p>
-          My responsibilities included stocking excess inventory, counting registers, sanitation, customer service/sales, and closing the store. I learned key values about working as a team of employees, and how to operate around customers.
-        </p>
-        <h4>TEACHING ASSISTANT | LYCOMING COLLEGE | JUNE OF 2012 AND 2013</h4>
-        <p>
-          I was a teaching assistant for a week long camp during the summers of 2012 and 2013. I supervised and taught an animal habitats class of 20 children at the Lycoming College for Kids. I learned valuable lessons of responsibility, and how to manage a group of people.
-        </p>
-      </div>
-      <br/>
-      <div class="download">
-        Download:
-        <a href="downloads/resume.pdf" download>Resume PDF</a>
-        <a href="downloads/resume.docx" download>Resume DOCX</a>
-        <a href="downloads/resume.txt" download>Resume Plain Text</a>
+      <div class="resume">
+        <h1>Resume</h1>
+        <div class="proj">
+          <a href="assets/dls/resume.pdf" download>
+            <h4>Download Resume as PDF</h4>
+          </a>
+        </div>
+        <div class="proj">
+          <a href="assets/dls/resume.docx" download>
+            <h4>Download Resume as Docx</h4>
+          </a>
+        </div>
       </div>
     </div>
+    <span id="footer">&copy; 2018 Ryan Bower</span>
   </body>
 </html>
