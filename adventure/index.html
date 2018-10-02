@@ -1,0 +1,30 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Adventure!</title>
+  <meta name="description" content="Project 1: Dynamic JavaScript">
+  <meta name="author" content="Ryan Bower">
+
+  <link rel="stylesheet" href="media/css/style.css">
+  <!-- IE versions 7 and earlier does not support all dynamic elements need to make this page. -->
+  <!--[if lt IE 8 ]>
+    <script>
+     alert("You are using a browser lower than IE8. Please install a more modern browser!");
+     window.location = "http://outdatedbrowser.com/en";
+    </script>
+  <![endif]-->
+</head>
+
+<body onload="newMenu('start');">
+
+  <div id="content">
+    <h1>Choose your own adventure!</h1>
+  </div>
+
+  <script type="text/javascript" src="media/js/data.json"></script>
+  <script type="text/javascript" src="media/js/scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!-- Server side include to finish header and create nav -->
+
+<link rel="stylesheet" href="assets/css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> <!-- allows the 'Lato' font to be used-->
+<script src="https://code.jquery.com/jquery-3.1.1.js"
+  integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+  crossorigin="anonymous"></script> <!-- script that allows for jQueries -->
+</head>
+<body>
+<nav class="unselectable"> <!-- prevents the nav from getting highlighted -->
+  <div id="nav_wrapper">
+    <div class="home_button" onclick="location.href='index.php'">
+      <img src="assets/pics/home/nav_logo.png" alt="Logo" />
+      <h2>Perkasie</h2>
+    </div> <!-- creates the home buttom in the top left corner -->
+
+    <div id="page_nav" class="dropdown">
+      <div class="top-part">
+        <p>
+          Read about Perkasie
+        </p>
+        <div class="dropdown-caret">
+          <span class="caret"></span>
+        </div>
+      </div> <!-- creates the top part of the dropdown and caret -->
+
+      <div class="bottom-part">
+        <h3>Places</h3>
+        <ul>
+          <li><a href="perk.php">The Perk</a></li>
+          <li><a href="menlo.php">Menlo Pool</a></li>
+          <li><a href="lenape.php">Lenape Park</a></li>
+          <li><a href="church.php">Calvary Church</a></li>
+          <li><a href="dogpark.php">The Dog Park</a></li>
+        </ul>
+        <h3>Information</h3>
+        <ul>
+          <li><a href="schools.php">Pennridge Schools</a></li>
+          <li><a href="history.php">Town History</a></li>
+          <li><a href="landmarks.php">Local Landmarks</a></li>
+          <li><a href="map.php">Town Map</a></li>
+        </ul>
+        <h3>Resources</h3>
+        <ul>
+          <li><a href="references.php">References</a></li>
+          <li><a href="grading.php">Grading</a></li>
+          <li><a href="about.php">About</a></li>
+        </ul>
+      </div> <!-- creates the dropdown menu -->
+    </div> <!-- creates the whole dropdown -->
+  </div> <!-- wraps the navigation -->
+</nav> <!-- creates the entire navigation -->

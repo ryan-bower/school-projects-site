@@ -1,0 +1,142 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+
+/* accross all sections */
+.section {
+    padding-top: 6vw;
+    padding-bottom: 6vw;
+    /* temporary */
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+h2 {
+    color: white;
+    font-weight: lighter;
+    font-size: 3vw;
+    text-align: center;
+    padding-bottom: 1vw;
+}
+
+/* colors of each section */
+#s1 {
+    background-color: #D1D2D4;
+}
+#s2 {
+    background-color: #2E3192
+}
+#s3 {
+    background-color: #FF8A65;
+}
+#s4 {
+    background-color: #00A99D;
+}
+#s5 {
+    background-color: #222222;
+}
+
+/* Title and logo */
+
+.banner {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.banner img {
+    height: 300px;
+}
+
+/* video section */
+.vid {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+}
+
+/* stretch video to whole length of screen and scale */
+iframe {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+
+/* how much of the page the social links take up */
+.social_links {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* how big social links are relative to the social_links div */
+.social img{
+    width: 20%;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+
+/* both sets of images in downloads (section 3) */
+.phones, .downloads {
+    width: 80%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* phone screenshots */
+.phones img {
+    width: 29%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.downloads img {
+    width:39%;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+
+footer {
+    border: 0;
+	display: inline-block;
+	text-align: center;
+	color: white;
+	width: 100%;
+	z-index: 10;
+}
+
+#s5 {
+    padding-top: 3vw;
+    padding-bottom: 1vw;
+}    
+
+footer a {
+	text-decoration: none;
+	color: white;
+	font-size: 2vw;
+	font-weight: lighter;
+}
+
+footer p {
+    padding-bottom: 0;
+    font-size: 2vw;
+	font-weight: lighter;
+}
+
+/**
+	Changing the color when hovered over
+**/
+footer a:hover {
+	color: gray;
+}
+

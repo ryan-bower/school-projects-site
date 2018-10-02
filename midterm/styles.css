@@ -1,0 +1,31 @@
+body {
+	background-color: #85ddb0;
+	color: #383c44;
+	font-family: sans-serif;
+	font: arial;
+}
+
+img {
+	float: right;
+}
+
+h1, h2 {
+	color: yellow;
+	font-family: sans-serif;
+	font: helvetica;
+	margin-bottom: 0;
+}
+
+.lasers {
+	color: green;
+}
+
+#copyright {
+	text-align: center;
+	color: green;
+	font-size: 0.8em;
+}
+
+a:hover {
+	color: white;
+}

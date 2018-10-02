@@ -1,0 +1,376 @@
+* {
+  box-sizing: border-box;
+}
+
+.unselectable {
+   -moz-user-select: -moz-none;
+   -webkit-user-select: none;
+   -ms-user-select: none;
+}
+
+.top-part {
+  background: 0;
+  color: inherit;
+  border: 0;
+  outline: 0;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+}
+
+/* entire banner and nav */
+#nav_wrapper {
+  margin: auto;
+  padding: 0 40px;
+}
+
+/* entire body other than nav */
+#wrapper {
+  margin: auto;
+  width: 1200px;
+}
+
+/* entire header */
+header {
+  position: relative;
+  background-image: url("../pics/banners/home_banner.jpg");
+  height: 330px;
+}
+
+#perk { background-image: url("../pics/banners/perk_banner.jpg");}
+#menlo { background-image: url("../pics/banners/menlo_banner.jpg");}
+#lenape { background-image: url("../pics/banners/lenape_banner.jpg");}
+#church { background-image: url("../pics/banners/church_banner.jpg");}
+#dogpark { background-image: url("../pics/banners/dogpark_banner.jpg");}
+#schools { background-image: url("../pics/banners/schools_banner.jpg");}
+#hisdtory { background-image: url("../pics/banners/history_banner.jpg");}
+#landmarks { background-image: url("../pics/banners/landmarks_banner.jpg");}
+#map { background-image: url("../pics/banners/map_banner.jpg");}
+/* #town_map { background-image: url("../pics/town_map.jpg");} */
+
+/* entire nav */
+nav {
+  color: white;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+
+/* all nav texts */
+nav h2, nav h3, nav li {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+/* entire home button */
+nav .home_button {
+  margin-top: 15px;
+  background-color: rgba(0, 0, 0, 0.7);
+  float: left;
+  border-radius: 45px;
+  line-height: 40px;
+  padding: 2px 12px 0px 12px;
+  height: 40px;
+}
+
+/* just h2 text in home button*/
+nav .home_button h2 {
+  font-size: 18px;
+  font-weight: normal;
+  float: right;
+  margin: 0;
+  margin-left: 7px;
+  line-height: 34px;
+}
+
+nav .home_button img {
+  display: inline-block;
+  vertical-align: baseline;
+  height: 21px;
+}
+
+/* When hovering over the home button */
+nav .home_button:hover {
+  background-color: rgba(0, 0, 0, 0.80);
+  cursor: pointer;
+}
+
+/* entire nav bar */
+nav .dropdown {
+  background-color: rgba(0, 0, 0, 0.80);
+  float: right;
+  margin-top: 15px;
+}
+
+/* nav bar text */
+nav .dropdown .top-part {
+  font-size: 18px;
+  display: flex;
+  align-items: flex-end;
+  cursor: pointer;
+  padding: 12px 20px;
+}
+
+/* style for the elements in the dropdown */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* style for the links in the dropdown */
+nav a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  line-height: 20px;
+  font-size: 14px;
+  padding: 5px 20px;
+  margin: 0;
+}
+
+nav p {
+  margin: 0;
+}
+
+/* darkens links when you hover over them */
+nav a:hover {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* creates the caret in the dropdown using css magic */
+.dropdown-caret {
+  padding-top: 4px;
+  margin-left: 6px;
+  color: #a4e896;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 0.25rem;
+  display: inline-block;
+  vertical-align: middle;
+  border-top-color: currentColor;
+}
+
+/* initializes the dropdown to retracted */
+nav .dropdown .bottom-part {
+  display: none;
+  padding-bottom: 20px;
+}
+
+/* styles headers in the dropdown "places" and "information" */
+nav .dropdown .bottom-part h3 {
+  padding: 5px 20px;
+  margin-bottom: 0;
+  text-decoration: underline;
+}
+
+/* gets rid of the top margin for the first "places" header */
+nav .dropdown .bottom-part h3:first-child {
+  margin-top: 0;
+}
+
+/* entire links on the home page */
+.home-all_links {
+  margin: auto;
+}
+
+/* and indiviual link on the home page */
+.home-all_links .home-link {
+  width: 350px;
+  float: left;
+  margin: 15px;
+}
+
+/* home links header */
+.home-all_links .home-link h2 {
+  font-weight: normal;
+  font-size: 24pt;
+  letter-spacing: 2px;
+  margin: 0;
+  padding: 12px;
+  padding-left: 0;
+}
+
+/* home links blurbs */
+.home-all_links .home-link p {
+  margin: 0;
+  line-height: 1.5;
+  padding: 4px 0;
+  font-size: 16pt;
+}
+
+/* home links pics */
+.home-all_links .home-link img {
+  width: 100%;
+}
+
+/* home links links */
+.home-all_links .home-link a {
+  text-decoration: none;
+  color: #A66FA6;
+}
+
+/* a page's title h1 */
+h1 {
+  font-size: 48pt;
+  margin-left: 40px;
+  letter-spacing: 6px;
+}
+
+/* one info topic */
+.info-topic {
+  margin: 60px 15px;
+}
+
+/* info topic header */
+.info-topic h2 {
+  text-decoration: underline;
+  letter-spacing: 1.3px;
+}
+
+/* info topic paragraph */
+.info-topic p {
+  letter-spacing: 1px;
+  font-size: 13pt;
+}
+
+/* summaries for pages */
+.info-sum {
+  font-style: italic;
+  letter-spacing: 1.5px;
+  font-size: 13pt;
+  padding: 0 5%;
+}
+
+/* styles the map legend */
+.map-legend {
+  display: table;
+  margin: auto;
+  width: 300px;
+}
+
+.map-legend h2 {
+  padding-left: 60px;
+}
+
+/* styles the town map to scale correctly */
+#town_map {
+  max-width:100%;
+  display: table;
+  margin: auto;
+  padding: 20px 0 40px 0;
+}
+
+/* styling for all tables */
+table {
+  width: 600px;
+  display: table;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+/* padding for table headers */
+table th {
+  padding: 4px;
+}
+
+/* padding for table entries */
+table td {
+  padding: 4px;
+}
+
+/* colors every other row */
+table tr:nth-child(odd) {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* removes dots from lists */
+.info-topic ul li {
+  list-style: none;
+  padding: 2px;
+}
+
+.info-topic ol li {
+  padding: 2px;
+}
+
+.ref_links a {
+  word-wrap: break-word;
+}
+
+/* medium size */
+@media only screen and (max-width: 1300px) {
+  #wrapper {
+    width: 900px;
+  }
+
+  .home-all_links {
+    width: 760px;
+    margin: auto;
+  }
+
+  #town_map {
+    width: 800px;
+  }
+}
+
+/* Mobile Size*/
+@media only screen and (max-width: 1000px) {
+  #wrapper {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .home-all_links {
+    width: 90%;
+    margin: auto;
+  }
+
+  #town_map {
+    width: 50%;
+  }
+
+  .home-all_links .home-link {
+    height: 100%;
+    font-size: 16pt;
+  }
+
+  /* mobile nav adjustments */
+  nav .home_button img {
+    height: 100px;
+  }
+
+  nav .home_button {
+    padding: 12px 12px 0px 30px;
+    height: 130px;
+  }
+
+  nav .home_button h2 {
+    font-size: 72pt;
+    line-height: 100px;
+  }
+
+  .home-all_links .home-link {
+    font-size: 24pt;
+  }
+
+  nav .dropdown .top-part {
+    font-size: 9vw;
+  }
+
+  nav h2, nav h3 {
+    font-size: 7vw;
+  }
+
+  nav a {
+    font-size: 5vw;
+    line-height: 40px;
+  }
+
+}
+
+/* End of css file */
