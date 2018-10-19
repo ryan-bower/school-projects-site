@@ -63,3 +63,22 @@ p, li {
   text-align: center;
   background-color: ghostwhite;
 }
+/* link hover colors */
+.hover-harley:hover {
+  color: #004622;
+}
+.hover-JUST:hover {
+  color: #3db5e6;
+}
+.hover-octuv:hover {
+  color: #2E3192;
+}
+.hover-perk:hover {
+  color: #044305;
+}
+.hover-red-barn:hover {
+  color: #6A1F24;
+}
+.hover-choose:hover {
+  color: #4A5055;
+}
